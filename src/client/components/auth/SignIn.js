@@ -22,7 +22,7 @@ class SignIn extends React.Component {
           >
             {/* EMAIL */}
             <div className="field">
-              <label className="label has-text-white">Email</label>
+              <label className="label">Email</label>
               <div className="control has-icons-left has-icons-right">
                 <input
                   type="email"
@@ -41,7 +41,7 @@ class SignIn extends React.Component {
             </div>
             {/* PASSWORD */}
             <div className="field">
-              <label className="label has-text-white">Password</label>
+              <label className="label ">Password</label>
               <p className="control has-icons-left">
                 <input
                   type="password"
@@ -61,7 +61,7 @@ class SignIn extends React.Component {
               )} */}
             </div>
             <div className="column" id="login">
-              <button type="submit" className="button is-danger is-large">
+              <button type="submit" className="button is-warning is-large">
                 Login
               </button>
             </div>
